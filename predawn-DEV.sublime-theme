@@ -24,12 +24,12 @@
     {
         "class": "tabset_control",
         "settings": ["tabs_small"],
-        "tab_height": 30
+        "tab_height": 40
     },
     {
         "class": "tabset_control",
         "settings": ["tabs_medium"],
-        "tab_height": 45
+        "tab_height": 50
     },
         // Tab element
     {
@@ -74,25 +74,25 @@
         "attributes": ["selected"],
         "layer0.opacity": 0,
         "layer1.opacity": 1.0,
-        "layer2.opacity": 0
+        "layer2.opacity": 0.3
     },
         // Tab labels
     {
         "class": "tab_label",
         "fade": false,
-        "fg": [144, 146, 147],
+        "fg": [128, 128, 128],
         "font.bold" : false,
         "font.size" : 11
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [255, 255, 255]
+        "fg": [196, 196, 196]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [255, 255, 255]
+        "fg": [196, 196, 196]
     },
         // Tab close button
     {
@@ -347,7 +347,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [241, 130, 96, 10]
+        "viewport_color": [196, 196, 196, 10]
     },
 
         //
@@ -493,30 +493,30 @@
         // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [120, 120, 120],
+        "color": [128, 128, 128],
         "font.bold": true
     },
         // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [140, 140, 140]
+        "color": [128, 128, 128]
     },
         // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [210, 210, 210]
+        "color": [196, 196, 196]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": [ "hover"]}],
-        "color": [240, 240, 240]
+        "color": [196, 196, 196]
     },
         // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [240, 240, 240]
+        "color": [196, 196, 196]
     },
         // Sidebar entry transient
     {
@@ -585,7 +585,7 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 0.3,
+        "layer0.opacity": 0.6,
         "content_margin": [8, 8]
     },
     {
@@ -671,7 +671,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [10, 10],
+        "row_padding": [8, 8],
         "layer0.tint": [60, 60, 60],
         "layer0.opacity": 1.0
     },
@@ -688,21 +688,21 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [120, 120, 120],
-        "match_fg": [241, 130, 96],
+        "fg": [128, 128, 128],
+        "match_fg": [196, 196, 196],
         "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [75, 75, 75],
-        "match_fg": [241, 130, 96],
+        "fg": [64, 64, 64],
+        "match_fg": [196, 196, 196],
         "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [241, 130, 96],
+        "fg": [196, 196, 196],
         "selected_fg": [255, 255, 255]
     },
 
@@ -737,7 +737,7 @@
     },
     {
         "class": "auto_complete_label",
-        "fg": [140, 140, 140],
+        "fg": [128, 128, 128],
         "match_fg": [255, 255, 255],
         "bg": [26, 26, 26],
         "selected_fg": [255, 255, 255],
